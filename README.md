@@ -1,16 +1,45 @@
-# user_explorer
+# 🚀 Flutter User Explorer Task
 
-A new Flutter project.
+A Flutter application built using GetX (MVC architecture) that displays users fetched from a REST API with offline caching, theme toggle, and search functionality.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Key-Features
+✅ Fetch user data from REST API  
+✅ Offline caching using GetStorage  
+✅ Search users by name  
+✅ Pull-to-refresh  
+✅ Light / Dark theme toggle  
+✅ Real-time network connectivity handling  
+✅ Responsive UI with Material Design  
+✅ Clean MVC + GetX architecture  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Architecture Overview
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project follows **MVC + GetX Architecture**:
+
+---
+
+## 🧠 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| UI | Flutter + Material 3 |
+| State Management | GetX |
+| API Handling | HTTP |
+| Local Cache | GetStorage |
+| Architecture | MVC |
+| Theme | Light/Dark Toggle |
+| Connectivity | connectivity_plus |
+
+---
+
+## 🧩 Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Abhish4k/flutter_user_explorer_task.git
+cd flutter_user_explorer_task
+
