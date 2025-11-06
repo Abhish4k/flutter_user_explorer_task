@@ -1,0 +1,42 @@
+import 'package:flutter/material.dart';
+
+class AppColors {
+  static const Color success = Colors.green;
+  static const Color error = Colors.redAccent;
+  static const Color blueGrey = Colors.blueGrey;
+  static const Color dividerColor = Color(0xFFE0E0E0);
+  static const Color shadowLight = Color(0x1A000000);
+  static const Color lightPrimary = Color(0xFF00BFA6);
+  static const Color lightAccent = Color(0xFF00E5FF);
+  static const Color lightBackground = Colors.white;
+  static const Color lightScaffold = Color(0xFFF5F5F5);
+  static const Color lightTextPrimary = Colors.black;
+  static const Color lightTextSecondary = Colors.black87;
+  static const Color lightTextGrey = Colors.grey;
+  static const Color lightTextWhite = Colors.white;
+  static const Color lightBlue = Colors.blue;
+  static const Color lightOrange = Colors.orange;
+  static const Color lightRedAccent = Colors.redAccent;
+  static const Color darkPrimary = Color(0xFF00E5FF);
+  static const Color darkAccent = Color(0xFF00BFA6);
+  static const Color darkBackground = Color(0xFF121212);
+  static const Color darkScaffold = Color(0xFF1E1E1E);
+  static const Color darkTextPrimary = Colors.white;
+  static const Color darkTextSecondary = Colors.white70;
+  static const Color darkTextGrey = Colors.grey;
+  static const Color darkTextWhite = Colors.white;
+  static const Color darkBlue = Color(0xFF64B5F6);
+  static const Color darkOrange = Color(0xFFFFB74D);
+  static const Color darkRedAccent = Colors.redAccent;
+  static const Color primary = lightPrimary;
+  static const Color accent = lightAccent;
+  static const Color background = lightBackground;
+  static const Color scaffoldBg = lightScaffold;
+  static const Color textPrimary = lightTextPrimary;
+  static const Color textSecondary = lightTextSecondary;
+  static const Color textGrey = lightTextGrey;
+  static const Color textWhite = lightTextWhite;
+  static const Color orangeColor = lightOrange;
+  static const Color redAccent = lightRedAccent;
+  static const Color blueColor = lightBlue;
+}
